@@ -3,6 +3,7 @@ import classNames from "classnames"
 
 import styles from "./style.module.scss"
 import FontCredit from "../FontCredit/page"
+import PlayIcon from "../../../public/icons/play.svg"
 
 export default function NewPost() {
   return (
@@ -10,6 +11,7 @@ export default function NewPost() {
       <div className={styles.postCover}>
       <div className={classNames(styles.title, styles.topLine)}>radio</div>
       <div className={classNames(styles.title, styles.bottomLine)}>garpet</div>
+      <PlayIcon className={styles.play}/>
         <Image
           src={`/posts-cover/khmer-ear.JPG`}
           alt=""
